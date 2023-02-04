@@ -68,7 +68,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
   JP1:
-    filter: ^((?!(临时|一元|看这里|美|德)).)*$
+    filter: ^((?!(临时|一元|看这里|美|德|日)).)*$
     type: file
     path: ./OneYuanList.yaml
     health-check:
